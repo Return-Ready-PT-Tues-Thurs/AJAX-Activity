@@ -13,8 +13,6 @@
 .imagePanel{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    /* grid-template-rows: 3ch auto minmax(10px, 60px);  */
-
     gap: 20px;
 }
 img{
