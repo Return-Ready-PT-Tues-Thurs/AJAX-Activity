@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+.button{
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 2rem;
+}
+.buttonDiv{
+    text-align: center;
+}
+
+.imagePanel{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 20px;
+}
