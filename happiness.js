@@ -3,10 +3,10 @@ var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function () {
   if (xhr.readyState === 4) {
     var n = JSON.parse(xhr.responseText);
-    var sec = JSON.parse(xhr.responseText);
+    //var sec = JSON.parse(xhr.responseText);
     //console.log(n.message);
     document.getElementById("dogImage").src = n.message[0];
-    document.getElementById("secImage").src = sec.message[1];
+    document.getElementById("secImage").src = n.message[1];
     document.getElementById("thirdImage").src = n.message[2];
   }
 };
