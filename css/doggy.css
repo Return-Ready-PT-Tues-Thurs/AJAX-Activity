@@ -1,0 +1,26 @@
+/* Global Layout Set-up */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.container {
+    padding: 40px;
+    height: 80vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1rem;
+}
+
+
+img {
+    display: row;
+    margin-top: 50px;
+    margin-right: 30px;
+    max-width: 33.3vh;
+    border-radius: 5%;
+    box-shadow: 0 20px 10px 0 grey;
+}
