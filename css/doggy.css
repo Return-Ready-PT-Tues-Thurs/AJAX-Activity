@@ -6,13 +6,12 @@
 }
 
 .container {
-    padding: 40px;
-    height: 80vh;
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    border: 1rem;
+    padding: 40px;
+    height: 80vh;
 }
 
 
