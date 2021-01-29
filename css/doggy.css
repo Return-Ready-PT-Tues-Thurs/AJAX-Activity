@@ -1,3 +1,8 @@
+:root {
+    --midnightgreen: #174c54;
+    --black: black;
+}
+
 /* Global Layout Set-up */
 * {
     margin: 0;
@@ -20,4 +25,21 @@ img {
     max-width: 33.3vh;
     border-radius: 5%;
     box-shadow: -10px 10px 5px gray;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--midnightgreen);
+    color: white;
+    border-color: var(--midnightgreen);
+    font-size: 18px;
+    transition: 200ms transform;
+    border-radius: 5%;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+    background-color: white;
+    color: var(--midnightgreen);
 }
