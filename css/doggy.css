@@ -17,10 +17,9 @@
 
 
 img {
-    display: row;
     margin-top: 50px;
     margin-right: 30px;
     max-width: 33.3vh;
     border-radius: 5%;
-    box-shadow: 0 20px 10px 0 grey;
+    box-shadow: -10px 10px 5px gray;
 }
